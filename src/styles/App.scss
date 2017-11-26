@@ -1,15 +1,21 @@
+$font-stack: Roboto, Helvetica, sans-serif;
+$primary-color: #2791AC;
+
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+p {
+  font-family: $font-stack;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 160px;
+  background-color: $primary-color;
+  height: 80px;
   padding: 20px;
   color: white;
 }
@@ -18,7 +24,16 @@
   font-size: large;
 }
 
+/*
+Spinning Logo
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+*/
