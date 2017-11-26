@@ -4,10 +4,13 @@
 
 $font-stack: Roboto, Helvetica, sans-serif;
 $primary-color: #2791AC;
+$secondary-color: #5FD0EC;
+$white: #FFFFFF;
+
 
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 100% / 1.4 $text-font-stack;
 }
 
 p {

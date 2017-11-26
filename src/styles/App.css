@@ -434,7 +434,7 @@ a {
  */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  font: normal 100%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 p {
   font-family: Roboto, Helvetica, sans-serif; }
@@ -505,3 +505,99 @@ p {
 
 .App-intro {
   font-size: large; }
+
+.Header-Tabs {
+  width: 100%;
+  background-color: #2791AC;
+  height: 80px;
+  padding: 20px;
+  /*
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.13);
+  */ }
+  .Header-Tabs ul {
+    padding: 8px;
+    width: 55%;
+    float: left; }
+    .Header-Tabs ul li {
+      color: #FFFFFF;
+      display: inline;
+      padding: 10px 5%;
+      list-style: none; }
+      .Header-Tabs ul li.active {
+        border-bottom: solid 6px #5FD0EC; }
+  .Header-Tabs .FAB {
+    float: right;
+    top: 38px;
+    position: relative; }
+    .Header-Tabs .FAB a img.icon-button {
+      position: relative;
+      padding-left: 10px;
+      top: 5px; }
+
+@media only screen and (max-width: 600px) {
+  .Header-Tabs ul {
+    width: 75%; }
+  .Header-Tabs .FAB a span {
+    display: none; }
+  .Header-Tabs .FAB a img.icon-button {
+    position: relative;
+    padding-left: 0px;
+    top: 5px;
+    width: 30px; } }
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 18px 26px;
+  border-radius: 30px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.3em; }
+
+.btn-lightBlue {
+  background: #5FD0EC;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.03); }
+  .btn-lightBlue:hover {
+    background: #5acfeb;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-lightBlue:active {
+    background: #5acfeb;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-lightBlue:focus {
+    background: #5acfeb;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-lightBlue:visited {
+    background: #5acfeb;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-lightBlue:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.02); }
+
+.btn-darkBlue {
+  background: #2791AC; }
+  .btn-darkBlue:hover {
+    background: #268da8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-darkBlue:active {
+    background: #268da8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-darkBlue:focus {
+    background: #268da8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }
+  .btn-darkBlue:visited {
+    background: #268da8;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white; }

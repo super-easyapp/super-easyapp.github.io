@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="27px" viewBox="0 0 32 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>quixIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="For-Sale" transform="translate(-1177.000000, -127.000000)" stroke="#FFFFFF">
+            <g id="quixIcon" transform="translate(1175.000000, 126.000000)">
+                <g transform="translate(18.759361, 15.534105) rotate(-345.000000) translate(-18.759361, -15.534105) translate(3.020788, 4.670312)" id="Rectangle-Copy">
+                    <polyline stroke-width="3" transform="translate(9.986482, 9.920812) rotate(-230.000000) translate(-9.986482, -9.920812) " points="15.6913658 9.80619414 15.6913658 18.170272 12.057512 18.170272 10.1230839 17.0618704 7.97796408 18.170272 4.28159731 18.170272 4.28159731 9.90707491 4.28159731 1.67135284"></polyline>
+                    <polyline stroke-width="3" transform="translate(18.636557, 9.873048) rotate(-51.000000) translate(-18.636557, -9.873048) " points="24.3414414 9.75842974 24.3414414 18.1225076 20.7075876 18.1225076 18.7731595 17.014106 16.6280397 18.1225076 12.9316729 18.1225076 12.9316729 9.85931051 12.9316729 1.62358845"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

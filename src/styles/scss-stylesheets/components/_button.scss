@@ -1,3 +1,53 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background:darken($bg,1%);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+  }
+  &:active {
+    background:darken($bg,1%);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+  }
+  &:focus {
+    background:darken($bg,1%);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+  }
+  &:visited {
+    background:darken($bg,1%);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+  }
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 18px 26px;
+  border-radius: 30px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+
+.btn-lightBlue {
+  @include button-bg(#5FD0EC);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.03);
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.02);
+  }
+}
+
+.btn-darkBlue {
+  @include button-bg(#2791AC);
+}
