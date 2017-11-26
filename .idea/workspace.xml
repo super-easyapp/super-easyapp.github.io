@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="bcaa8e32-5086-4dcd-a5dd-bd82fd155697" name="Default" comment="">
 <<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.9a0fe4f1.css" afterPath="" />
@@ -23,6 +24,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/scss-stylesheets/main.css" afterPath="$PROJECT_DIR$/src/styles/scss-stylesheets/main.css" />
 >>>>>>> origin/master
     </list>
+=======
+    <list default="true" id="bcaa8e32-5086-4dcd-a5dd-bd82fd155697" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="super-easyapp.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,12 +47,16 @@
     <favorites_list name="super-easyapp.github.io" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/App.scss">
 =======
     <leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+>>>>>>> Stashed changes
       <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/scss-stylesheets/layout/_header.scss">
 >>>>>>> origin/master
@@ -195,7 +203,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,6 +255,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,11 +335,16 @@
       <workItem from="1511739441586" duration="17000" />
 =======
       <workItem from="1511720911676" duration="12904000" />
+<<<<<<< Updated upstream
 >>>>>>> origin/master
+=======
+      <workItem from="1511739938266" duration="2000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="8149000" />
   </component>
@@ -345,8 +358,15 @@
     <frame x="32" y="60" width="1377" height="778" extended-state="0" />
     <editor active="true" />
 >>>>>>> origin/master
+=======
+    <option name="totallyTimeSpent" value="12906000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="32" y="60" width="1377" height="754" extended-state="0" />
+    <editor active="false" />
+>>>>>>> Stashed changes
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26106194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26106194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -381,14 +401,47 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/styles/App.scss">
+=======
+    <entry file="file://$PROJECT_DIR$/src/styles/scss-stylesheets/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="975">
+          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Dialog.js">
+>>>>>>> Stashed changes
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/scss-stylesheets/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/styles/scss-stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -403,22 +456,42 @@
           <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/components/HeaderTabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/src/components/HeaderTabs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/styles/scss-stylesheets/components/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="22" />
+=======
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
