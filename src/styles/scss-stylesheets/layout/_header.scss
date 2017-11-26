@@ -16,3 +16,67 @@
 .App-intro {
   font-size: large;
 }
+
+.Header-Tabs {
+  width: 100%;
+  background-color: $primary-color;
+  height: 80px;
+  padding: 20px;
+  /*
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.13);
+  */
+
+  ul {
+    padding: 8px;
+    width: 55%;
+    float: left;
+    li {
+      color: $white;
+      display: inline;
+      padding: 10px 5%;
+      list-style: none;
+
+      &.active {
+        border-bottom: solid 6px $secondary-color;
+      }
+    }
+  }
+
+  .FAB {
+    float: right;
+    top: 38px;
+    position: relative;
+
+    a {
+      span {
+
+      }
+      img.icon-button {
+        position: relative;
+        padding-left: 10px;
+        top: 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .Header-Tabs {
+    ul {
+      width: 75%;
+    }
+    .FAB {
+      a {
+        span {
+          display:none;
+        }
+        img.icon-button {
+          position: relative;
+          padding-left: 0px;
+          top: 5px;
+          width: 30px;
+        }
+      }
+    }
+  }
+}
