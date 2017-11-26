@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.svg';
 
 const HeaderTabs = () => (
     <div className="Header-Tabs">
