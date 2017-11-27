@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcaa8e32-5086-4dcd-a5dd-bd82fd155697" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/App.css" afterPath="$PROJECT_DIR$/src/styles/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/scss-stylesheets/layout/_header.scss" afterPath="$PROJECT_DIR$/src/styles/scss-stylesheets/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles/scss-stylesheets/main.css" afterPath="$PROJECT_DIR$/src/styles/scss-stylesheets/main.css" />
-    </list>
+    <list default="true" id="bcaa8e32-5086-4dcd-a5dd-bd82fd155697" name="Default" comment="" />
     <ignored path="super-easyapp.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -322,12 +316,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511720909950</updated>
       <workItem from="1511720911676" duration="12904000" />
-      <workItem from="1511742709638" duration="936000" />
+      <workItem from="1511742709638" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13840000" />
+    <option name="totallyTimeSpent" value="14092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="60" width="1377" height="754" extended-state="0" />
