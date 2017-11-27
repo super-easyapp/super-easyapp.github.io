@@ -2,6 +2,8 @@ import React from 'react';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 import iconbutton from '../images/iconbutton.svg';
+import DragAndDrop from '../images/DragAndDrop.png';
+
 
 /**
  * Dialog with action buttons. The actions are passed in as an array of React objects,
@@ -53,7 +55,10 @@ export default class DialogExampleSimple extends React.Component {
                     open={this.state.open}
                     onRequestClose={this.handleClose}
                 >
-                    Tickets must be original e-ticket PDFs. We do not currently allow uploading scanned or photographed tickets.
+                    <img src={DragAndDrop} className="DragAndDrop" alt="DragAndDrop" />
+                    <span>
+                        Tickets must be original e-ticket PDFs. We do not currently allow uploading scanned or photographed tickets.
+                    </span>
                 </Dialog>
             </div>
         );
