@@ -33,7 +33,6 @@ export default class DialogExampleSimple extends React.Component {
             <FlatButton
                 label="Submit"
                 primary={true}
-                keyboardFocused={true}
                 onClick={this.handleClose}
             />,
         ];
@@ -48,13 +47,13 @@ export default class DialogExampleSimple extends React.Component {
                 </div>
 
                 <Dialog
-                    title="Dialog With Actions"
+                    title="Upload Tickets"
                     actions={actions}
                     modal={false}
                     open={this.state.open}
                     onRequestClose={this.handleClose}
                 >
-                    The actions in this window were passed in as an array of React objects.
+                    Tickets must be original e-ticket PDFs. We do not currently allow uploading scanned or photographed tickets.
                 </Dialog>
             </div>
         );

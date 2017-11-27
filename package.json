@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "quix-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://super-easyapp.github.io",
@@ -8,9 +8,12 @@
     "npm-run-all": "^4.1.2",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "redux": "^3.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
