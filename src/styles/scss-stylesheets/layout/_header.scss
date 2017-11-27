@@ -2,15 +2,31 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-.App-logo {
-  height: 40px;
-}
-
 .App-header {
   background-color: $primary-color;
   height: 80px;
   padding: 20px;
   color: white;
+
+  .App-logo {
+    height: 40px;
+    float: left;
+  }
+
+  .Account-Info {
+    float: right;
+    span {
+      font-size: 28px;
+      font-weight: 100;
+      top: -14px;
+      position: relative;
+      padding-right: 10px;
+      opacity: .5;
+    }
+    .Avatar {
+      height: 50px;
+    }
+  }
 }
 
 .App-intro {
@@ -35,6 +51,10 @@
       display: inline;
       padding: 10px 5%;
       list-style: none;
+
+      &:hover {
+        border-bottom: solid 6px #3d798c;
+      }
 
       &.active {
         border-bottom: solid 6px $secondary-color;

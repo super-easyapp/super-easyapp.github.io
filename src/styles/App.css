@@ -494,14 +494,25 @@ p {
   position: absolute;
   width: 1px; }
 
-.App-logo {
-  height: 40px; }
-
 .App-header {
   background-color: #2791AC;
   height: 80px;
   padding: 20px;
   color: white; }
+  .App-header .App-logo {
+    height: 40px;
+    float: left; }
+  .App-header .Account-Info {
+    float: right; }
+    .App-header .Account-Info span {
+      font-size: 28px;
+      font-weight: 100;
+      top: -14px;
+      position: relative;
+      padding-right: 10px;
+      opacity: .5; }
+    .App-header .Account-Info .Avatar {
+      height: 50px; }
 
 .App-intro {
   font-size: large; }
@@ -523,6 +534,8 @@ p {
       display: inline;
       padding: 10px 5%;
       list-style: none; }
+      .Header-Tabs ul li:hover {
+        border-bottom: solid 6px #3d798c; }
       .Header-Tabs ul li.active {
         border-bottom: solid 6px #5FD0EC; }
   .Header-Tabs .FAB {
