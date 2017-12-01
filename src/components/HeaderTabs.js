@@ -15,17 +15,6 @@ const HeaderTabs = () => (
             <DialogExampleSimple />
         </MuiThemeProvider>
 
-        {/*
-
-         import iconbutton from '../images/iconbutton.svg';
-
-         <div className="FAB">
-            <a href="#" className="btn btn-lightBlue">
-                <span>Upload Tickets</span>
-                <img src={iconbutton} className="icon-button" alt="quixicon" />
-            </a>
-        </div>*/}
-
     </div>
 );
 

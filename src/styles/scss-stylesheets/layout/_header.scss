@@ -38,9 +38,7 @@
   background-color: $primary-color;
   height: 80px;
   padding: 20px;
-  /*
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.13);
-  */
+  position: absolute;
 
   ul {
     padding: 8px;
@@ -77,6 +75,19 @@
         top: 5px;
       }
     }
+  }
+}
+
+.emptyState {
+  display: block;
+  top: 180px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+
+  img.QuixIcon {
+    display: block;
+    margin: auto;
   }
 }
 

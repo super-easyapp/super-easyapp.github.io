@@ -522,9 +522,7 @@ p {
   background-color: #2791AC;
   height: 80px;
   padding: 20px;
-  /*
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.13);
-  */ }
+  position: absolute; }
   .Header-Tabs ul {
     padding: 8px;
     width: 55%;
@@ -546,6 +544,16 @@ p {
       position: relative;
       padding-left: 10px;
       top: 5px; }
+
+.emptyState {
+  display: block;
+  top: 180px;
+  margin: auto;
+  position: relative;
+  width: 100%; }
+  .emptyState img.QuixIcon {
+    display: block;
+    margin: auto; }
 
 @media only screen and (max-width: 600px) {
   .Header-Tabs ul {
@@ -614,3 +622,12 @@ p {
     transition: all 0.3s ease;
     text-decoration: none;
     color: white; }
+
+img.DragAndDrop {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 20px 0 40px; }
+
+span.instructions {
+  text-align: center; }

@@ -29,11 +29,11 @@ export default class DialogExampleSimple extends React.Component {
         const actions = [
             <FlatButton
                 label="Cancel"
-                primary={true}
+                primary={false}
                 onClick={this.handleClose}
             />,
             <FlatButton
-                label="Submit"
+                label="Upload"
                 primary={true}
                 onClick={this.handleClose}
             />,
@@ -56,7 +56,7 @@ export default class DialogExampleSimple extends React.Component {
                     onRequestClose={this.handleClose}
                 >
                     <img src={DragAndDrop} className="DragAndDrop" alt="DragAndDrop" />
-                    <span>
+                    <span className="instructions">
                         Tickets must be original e-ticket PDFs. We do not currently allow uploading scanned or photographed tickets.
                     </span>
                 </Dialog>
