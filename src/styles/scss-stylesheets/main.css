@@ -523,18 +523,18 @@ p {
   height: 80px;
   padding: 20px;
   position: absolute; }
-  .Header-Tabs ul {
+  .Header-Tabs ul.Header-Tabs-ListItems {
     padding: 8px;
     width: 55%;
     float: left; }
-    .Header-Tabs ul li {
+    .Header-Tabs ul.Header-Tabs-ListItems li {
       color: #FFFFFF;
       display: inline;
       padding: 10px 5%;
       list-style: none; }
-      .Header-Tabs ul li:hover {
-        border-bottom: solid 6px #3d798c; }
-      .Header-Tabs ul li.active {
+      .Header-Tabs ul.Header-Tabs-ListItems li:hover {
+        border-bottom: solid 6px #6bcaee; }
+      .Header-Tabs ul.Header-Tabs-ListItems li.active {
         border-bottom: solid 6px #5FD0EC; }
   .Header-Tabs .FAB {
     float: right;
@@ -544,6 +544,12 @@ p {
       position: relative;
       padding-left: 10px;
       top: 5px; }
+
+img.QuixCard {
+  width: 100%;
+  top: 10px;
+  position: relative;
+  left: 17px; }
 
 .emptyState {
   display: block;

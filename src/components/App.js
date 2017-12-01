@@ -10,14 +10,6 @@ class App extends Component {
      <div className="App">
         <Header />
         <HeaderTabs />
-
-        <div className="emptyState">
-          <img src={QuixCard} className="QuixCard" alt="QuixCard" />
-
-          <img src={QuixCard} className="QuixCard" alt="QuixCard" />
-
-        </div>
-
     </div>
   );
   }

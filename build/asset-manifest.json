@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.7be5e475.css",
-  "main.css.map": "static/css/main.7be5e475.css.map",
-  "main.js": "static/js/main.098689cd.js",
-  "main.js.map": "static/js/main.098689cd.js.map",
+  "main.css": "static/css/main.1c1b37f1.css",
+  "main.css.map": "static/css/main.1c1b37f1.css.map",
+  "main.js": "static/js/main.20b64041.js",
+  "main.js.map": "static/js/main.20b64041.js.map",
   "static/media/AvatarWithBadge.png": "static/media/AvatarWithBadge.b53d1818.png",
+  "static/media/DragAndDrop.png": "static/media/DragAndDrop.b2d70f9d.png",
   "static/media/iconbutton.svg": "static/media/iconbutton.4882159a.svg",
-  "static/media/logo.svg": "static/media/logo.a14f2856.svg"
+  "static/media/logo.svg": "static/media/logo.a14f2856.svg",
+  "static/media/quixCard.png": "static/media/quixCard.6f322cc6.png"
 }

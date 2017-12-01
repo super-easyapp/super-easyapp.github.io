@@ -40,7 +40,7 @@
   padding: 20px;
   position: absolute;
 
-  ul {
+  ul.Header-Tabs-ListItems {
     padding: 8px;
     width: 55%;
     float: left;
@@ -51,7 +51,7 @@
       list-style: none;
 
       &:hover {
-        border-bottom: solid 6px #3d798c;
+        border-bottom: solid 6px #6bcaee;
       }
 
       &.active {
@@ -76,6 +76,13 @@
       }
     }
   }
+}
+
+img.QuixCard {
+  width: 100%;
+  top: 10px;
+  position: relative;
+  left: 17px;
 }
 
 .emptyState {
