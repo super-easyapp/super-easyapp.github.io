@@ -3,26 +3,25 @@
  * You need to return something, so if there are no users then just return an empty array
  * */
 
-
 export default function () {
     return [
         {
             id: 1,
             first: "For",
             last: "Sale",
-            thumbnail: "/static/media/twoQuixCards.c7a03f41.png"
+            thumbnail: "../images/twoQuixCards.png"
         },
         {
             id: 2,
             first: "Tickets",
             last: "Sold",
-            thumbnail: "/static/media/quixCard2.699f791b.png"
+            thumbnail: "../images/quixCard2.png"
         },
         {
             id: 3,
             first: "Ticket",
             last: "Activity",
-            thumbnail: "/static/media/twoQuixCards.c7a03f41.png"
+            thumbnail: "../images/twoQuixCards.png"
         }
     ]
 }
