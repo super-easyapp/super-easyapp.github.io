@@ -16,7 +16,7 @@ export default function () {
             id: 2,
             first: "Tickets",
             last: "Sold",
-            thumbnail: "/static/media/quixCard2.659c9dd3.png"
+            thumbnail: "/static/media/quixCard2.699f791b.png"
         },
         {
             id: 3,
