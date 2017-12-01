@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 import Header from './Header';
 import HeaderTabs from './HeaderTabs';
-import QuixIcon from '../images/quixIcon-color.svg';
+import QuixCard from '../images/quixCard.png';
 
 class App extends Component {
   render() {
@@ -12,10 +12,10 @@ class App extends Component {
         <HeaderTabs />
 
         <div className="emptyState">
-          <img src={QuixIcon} className="QuixIcon" alt="QuixIcon" />
-          <span>
-              
-          </span>
+          <img src={QuixCard} className="QuixCard" alt="QuixCard" />
+
+          <img src={QuixCard} className="QuixCard" alt="QuixCard" />
+
         </div>
 
     </div>

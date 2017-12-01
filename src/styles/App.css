@@ -551,9 +551,10 @@ p {
   margin: auto;
   position: relative;
   width: 100%; }
-  .emptyState img.QuixIcon {
+  .emptyState img.QuixCard {
     display: block;
-    margin: auto; }
+    margin: auto;
+    width: 95%; }
 
 @media only screen and (max-width: 600px) {
   .Header-Tabs ul {
