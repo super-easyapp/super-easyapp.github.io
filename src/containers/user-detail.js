@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import QuixCard from '../images/twoQuixCards.png';
+import QuixCard from '../images/quixCard2.png';
 
 
 /*
